@@ -29,7 +29,11 @@
     <![endif]-->
 
     <!-- Just for debugging purposes. Don't actually copy these  lines! -->
-    <!--<script src="js/ie-emulation-modes-warning.js"></script>-->
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
 
     <style>
         body {
@@ -100,17 +104,17 @@
         <div class="col-xs-12 col-sm-9">
 
             <div class="row">
-                <div class="col-xs-12 col-lg-4">
+                <div class="col-xs-12">
                     <h2>Heading</h2>
 
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
                         mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
                         magna mollis euismod. Donec sed odio dui. </p>
-
+                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div>
                 <!--/.col-xs-6.col-lg-4-->
-                <div class="col-xs-12 col-lg-4">
+                <div class="col-xs-12">
                 <div class="table-responsive">
                     <table class="table table-striped">
                         <thead>
